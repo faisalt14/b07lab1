@@ -1,6 +1,6 @@
 public class Polynomial {
 	
-	// fields 
+	// Fields 
 	double[] coefficients; 
 	
 	// Constructor 1
@@ -9,7 +9,7 @@ public class Polynomial {
 		coefficients[0] = 0; 
 	}
 	
-	// Constructor 3
+	// Constructor 2
 	public Polynomial(double [] arr) {
 		coefficients = new double[arr.length];
 		coefficients = arr;  
