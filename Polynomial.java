@@ -163,6 +163,9 @@ public class Polynomial {
 	}
 	
 	public Boolean hasRoot(double x) {	
+		if (this.coefficients == null && this.exponents == null) {
+			return true; 	
+		}
 		return this.evaluate(x) == 0; 
 		
 	}
